@@ -33,9 +33,11 @@ export default function Parallax() {
         <Image ref={bg} src="/assets/parallax/bg.jpg" alt="" fill />
         <Image ref={moon} src="/assets/parallax/moon.png" alt="" fill />
         <Image ref={mountain} src="/assets/parallax/mountain.png" alt="" fill />
-        <Image ref={road} src="/assets/parallax/road.png" alt="" fill />
-        <h1 ref={text} fill>NOCTIA</h1>
+        <Image ref={road} className={styles.road} src="/assets/parallax/road.png" alt="" fill />
+        <h1 ref={text}>NOCTIA</h1>
       </div>
+
+      
     </div>
   );
 }

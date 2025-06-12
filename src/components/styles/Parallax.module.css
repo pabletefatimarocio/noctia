@@ -1,15 +1,56 @@
-.container{
-    height: 100%;
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+.container {
+  height: 1500px;
 }
 
-.images{
-    position: relative;
-    width: 100%;
-    aspect-ratio: 1/0.4;
+.images {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.images img{
-    position: absolute;
-    top: 0;
-    left: 0;
+.images img {
+  filter: sepia(1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.images h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 9em;
+  font-family: "MedievalSharp", cursive;
+  color: #02080e;
+}
+
+.road {
+  z-index: 2;
+}
+
+.images::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  z-index: 3;
+  background: linear-gradient(to top, #02080e, transparent);
+  filter: sepia(1);
+  bottom: 0;
+}
+
+.images::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: color;
 }
