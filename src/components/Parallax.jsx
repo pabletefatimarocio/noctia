@@ -36,8 +36,6 @@ export default function Parallax() {
         <Image ref={road} className={styles.road} src="/assets/parallax/road.png" alt="" fill />
         <h1 ref={text}>NOCTIA</h1>
       </div>
-
-      
     </div>
   );
 }

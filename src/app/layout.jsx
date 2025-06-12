@@ -1,14 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Joan, MedievalSharp } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const joan = Joan({
+  variable: "--font-joan",
   subsets: ["latin"],
+  weight:"400"
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const medievalSharp = MedievalSharp({
+  variable: "--font-medieval",
   subsets: ["latin"],
+  weight: "400"
 });
 
 export const metadata = {
@@ -19,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${joan.variable} ${medievalSharp.variable}`}>
         {children}
       </body>
     </html>

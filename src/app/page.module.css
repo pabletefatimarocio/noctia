@@ -1,0 +1,10 @@
+.text{
+    padding: 85px;
+    margin: 0 20rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: var(--font-joan);
+}

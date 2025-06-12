@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
 
 .container {
-  height: 1500px;
+  height: 100%;
 }
 
 .images {
@@ -26,7 +26,7 @@
   position: relative;
   z-index: 1;
   font-size: 9em;
-  font-family: "MedievalSharp", cursive;
+  font-family: var(--font-medieval);
   color: #02080e;
 }
 
