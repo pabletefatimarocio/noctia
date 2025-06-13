@@ -21,10 +21,10 @@ export default function Parallax() {
       road.current.style.top = value * 0.15 + "px";
       text.current.style.top = value * 1 + "px";
 
-      return () => {
-        window.removeEventListener(scrollEventListener);
-      };
     });
+    return () => {
+      window.removeEventListener("scroll", scrollEventListener);
+    };
   }, [moon]);
 
   return (
@@ -33,7 +33,13 @@ export default function Parallax() {
         <Image ref={bg} src="/assets/parallax/bg.jpg" alt="" fill />
         <Image ref={moon} src="/assets/parallax/moon.png" alt="" fill />
         <Image ref={mountain} src="/assets/parallax/mountain.png" alt="" fill />
-        <Image ref={road} className={styles.road} src="/assets/parallax/road.png" alt="" fill />
+        <Image
+          ref={road}
+          className={styles.road}
+          src="/assets/parallax/road.png"
+          alt=""
+          fill
+        />
         <h1 ref={text}>NOCTIA</h1>
       </div>
     </div>

@@ -1,10 +1,13 @@
 import Parallax from "@/components/Parallax";
-import styles from "./page.module.css";
+import styles from "./Home.module.css";
+import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs"
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Parallax />
+
       <p className={styles.text}>
         Noctia es un espacio que nace del dibujo, la observación y el tiempo.
         Durante años he explorado formas de expresión que me permiten entender,
@@ -15,6 +18,7 @@ export default function Home() {
         proyecto personal, pero también parte de mi portafolio profesional: una
         manera de mostrar cómo conviven lo técnico y lo sensible en lo que hago.
       </p>
+      <Link href="/drawings" className={styles.drawings}>MY DRAWINGS <BsArrowRight /></Link>
     </div>
   );
 }

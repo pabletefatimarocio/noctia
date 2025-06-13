@@ -1,0 +1,22 @@
+.container {
+  overflow: auto;
+}
+
+.text {
+  color: #ffff00d5;
+  margin: 85px 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-family: var(--font-joan);
+}
+
+.drawings{
+  
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
