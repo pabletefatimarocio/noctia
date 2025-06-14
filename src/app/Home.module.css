@@ -13,10 +13,18 @@
   font-family: var(--font-joan);
 }
 
-.drawings{
-  
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
+.drawings {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+.icon:hover{
+  color: rgb(195, 173, 135);
 }
