@@ -13,7 +13,10 @@ export default function Drawings() {
   }, []);
 
   return (
+   
     <div className={styles.container}>
+      
+      
       {drawings.map((drawing) => {
         const drawingWidth = 500;
         const drawingHeightRatio = drawing.height / drawing.width;

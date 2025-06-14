@@ -25,7 +25,7 @@ export default function Parallax() {
     return () => {
       window.removeEventListener("scroll", scrollEventListener);
     };
-  }, [moon]);
+  }, []);
 
   return (
     <div className={styles.container}>

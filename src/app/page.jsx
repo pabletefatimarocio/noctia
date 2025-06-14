@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import DrawingHome from "@/components/DrawingHome";
 
+
 export default function Home() {
   return (
     <div className={styles.container}>

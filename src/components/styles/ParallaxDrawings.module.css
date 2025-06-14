@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.images {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 1/0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.ermitañaEsq {
+  transform: scaleX(1.1);
+}
+
+.telon {
+  object-fit: fill !important;
+}
