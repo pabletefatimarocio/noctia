@@ -11,6 +11,7 @@
   justify-content: center;
   text-align: justify;
   font-family: var(--font-joan);
+  font-size: 13px;
 }
 
 .drawings {
@@ -22,7 +23,7 @@
 
 .icon {
   font-size: 30px;
-  margin-right: 10%;
+  margin-right: 40px;
 }
 
 .icon:hover{
