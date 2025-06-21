@@ -21,9 +21,16 @@
   align-items: center;
 }
 
+.pictures{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
 .icon {
   font-size: 30px;
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 .icon:hover{

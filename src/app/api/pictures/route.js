@@ -43,6 +43,18 @@ const pictures =[
         width: 720,
         heigth: 843
     },
+    {
+        id: 7,
+        img:"https://res.cloudinary.com/dllyvg3us/image/upload/v1749769180/Fomapan_100__13_of_39_vug46e.jpg",
+        film: "fomapan 400",
+        width: 5794,
+        heigth: 3863
+    }
     
    
 ]
+
+
+export async function GET() {
+  return NextResponse.json(pictures);
+}

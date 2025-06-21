@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import DrawingHome from "@/components/DrawingHome";
-
+import PicturesHome from "@/components/PicturesHome";
 
 export default function Home() {
   return (
@@ -23,6 +23,10 @@ export default function Home() {
         <BsArrowRight className={styles.icon} />
       </Link>
       <DrawingHome />
+      <Link href="/pictures" className={styles.pictures}>
+        <BsArrowRight className={styles.icon} />
+      </Link>
+      <PicturesHome />
     </div>
   );
 }

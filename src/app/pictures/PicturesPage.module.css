@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+}
+
+.flower {
+  height: 100%;
+}
+
+.flower img{
+  padding: 1rem 15rem;
+}
+
+
+.icon {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.icon:hover {
+  color: rgb(195, 173, 135);
+}
