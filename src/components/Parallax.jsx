@@ -30,7 +30,7 @@ export default function Parallax() {
   return (
     <div className={styles.container}>
       <div className={styles.images}>
-        <Image ref={bg} src="/assets/parallax/bg.jpg" alt="" fill />
+        <Image ref={bg} src="/assets/parallax/bg.png" alt="" fill />
         <Image ref={moon} src="/assets/parallax/moon.png" alt="" fill />
         <Image ref={mountain} src="/assets/parallax/mountain.png" alt="" fill />
         <Image
