@@ -8,7 +8,7 @@ export default function Parallax() {
   const moon = useRef(null);
   const bg = useRef(null);
   const mountain = useRef(null);
-  const road = useRef(null);
+  const flowers = useRef(null);
   const text = useRef(null);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function Parallax() {
       bg.current.style.top = value * 0.5 + "px";
       moon.current.style.left = -value * 0.5 + "px";
       mountain.current.style.top = -value * 0.15 + "px";
-      road.current.style.top = value * 0.15 + "px";
+      flowers.current.style.top = value * 0.15 + "px";
       text.current.style.top = value * 1 + "px";
 
     });
@@ -34,9 +34,9 @@ export default function Parallax() {
         <Image ref={moon} src="/assets/parallax/moon.png" alt="" fill />
         <Image ref={mountain} src="/assets/parallax/mountain.png" alt="" fill />
         <Image
-          ref={road}
+          ref={flowers}
           className={styles.road}
-          src="/assets/parallax/road.png"
+          src="/assets/parallax/flowers.png"
           alt=""
           fill
         />

@@ -15,7 +15,7 @@ export default function DrawingHome() {
   return (
     <div className={styles.container}>
       {drawingsHome.slice(0, 3).map((drawingsHome) => {
-        const drawingsHomeHeight = 400;
+        const drawingsHomeHeight = 350;
         const drawingsHomeRatio = drawingsHome.width / drawingsHome.height;
         const drawingsHomeWidth = drawingsHomeHeight * drawingsHomeRatio;
 
