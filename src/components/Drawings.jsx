@@ -18,7 +18,7 @@ export default function Drawings() {
       
       
       {drawings.map((drawing) => {
-        const drawingWidth = 500;
+        const drawingWidth = 400;
         const drawingHeightRatio = drawing.height / drawing.width;
         const drawingHeight = Math.ceil(drawingWidth * drawingHeightRatio);
         const drawingFooterHeight = 40;
