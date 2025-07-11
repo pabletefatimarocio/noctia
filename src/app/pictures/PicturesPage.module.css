@@ -6,10 +6,22 @@
   height: 100%;
 }
 
-.flower img{
+.flower img {
   padding: 1rem 15rem;
 }
 
+.p {
+  margin: 15px 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-family: var(--font-joan);
+  color: #ffff00d5;
+  font-size: 15px;
+  opacity: 0.7;
+}
 
 .icon {
   margin-top: 30px;

@@ -20,10 +20,14 @@ export default function Home() {
         manera de mostrar cómo conviven lo técnico y lo sensible en lo que hago.
       </p>
       <Link href="/drawings" className={styles.drawings}>
-        <BsArrowRight className={styles.icon} />
+           <h1 className={styles.titles}>Dibujos</h1>
+          <BsArrowRight className={styles.icon} />
+        
       </Link>
       <DrawingHome />
+
       <Link href="/pictures" className={styles.pictures}>
+      <h1 className={styles.titles}>Zenit</h1>
         <BsArrowRight className={styles.icon} />
       </Link>
       <PicturesHome />
