@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import DrawingHome from "@/components/DrawingHome";
 import PicturesHome from "@/components/PicturesHome";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <BsArrowRight className={styles.icon} />
       </Link>
       <PicturesHome />
+      <Footer />
     </div>
   );
 }

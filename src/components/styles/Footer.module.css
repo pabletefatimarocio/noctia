@@ -1,0 +1,30 @@
+.container{
+    top: 90px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.h1{
+    color: #FFFF00;
+    font-size: 20px;
+    font-family: var(--font-joan);
+    font-weight: normal;
+
+   
+}
+
+.img{
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    filter: opacity(0.5);
+}
+
+.img img{
+    object-fit: cover;
+    object-position: bottom;
+}
